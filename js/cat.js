@@ -2,7 +2,7 @@ var objF;
 var page;
 var obj;
 
-let prueba = (obj) => {
+let prueba = async(obj) => {
     for (let i = 0; i < 40; i++) {
         obj.push({
             n: (i + 1),
@@ -18,7 +18,7 @@ let cargar = () => {
     objF = [];
     let cook = document.cookie.split(";");
     let f = true;
-    obj = prueba([]);
+    obj = await prueba([]);
     for (let i = 0; i < cook.length && f; i++) {
         let name = cook[i].split("=");
         f = !name[0].includes("page");
