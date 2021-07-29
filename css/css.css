@@ -1,0 +1,53 @@
+#mainfooter {
+    margin-top: 120px !important;
+}
+
+#logo {
+    height: 100px !important;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li a {
+    font-family: 'Ubuntu', sans-serif !important;
+}
+
+.hover:hover {
+    background: #ffc107 !important;
+}
+
+.data:hover {
+    background: gray !important;
+    cursor: pointer;
+    color: white;
+}
+
+.data {
+    align-items: stretch;
+}
+
+.c1 {
+    background: #343a40;
+}
+
+.dato {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.dato1 {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.nav {
+    padding-top: initial !important;
+    padding-bottom: initial !important;
+}
